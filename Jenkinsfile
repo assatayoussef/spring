@@ -31,7 +31,7 @@ pipeline {
                         agent { label 'master' }
                         steps {
                                 sh "cd darkside-front && docker build -t darkside ."
-                        } */
-        }
+                        } 
+        } */
     }
 }
