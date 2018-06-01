@@ -27,11 +27,11 @@ pipeline {
         }
 
 
-                /*    stage('Docker') {
+                    stage('Docker') {
                         agent { label 'master' }
                         steps {
-                                sh "cd darkside-front && docker build -t darkside ."
+                                sh "cd location && docker build -t locationImage ."
                         } 
-        } */
+        }
     }
 }
