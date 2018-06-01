@@ -30,7 +30,7 @@ pipeline {
                     stage('Docker') {
                         agent { label 'master' }
                         steps {
-                                sh "cd location && docker build -t locationImage ."
+                                sh "cd location && docker build -t locationimage ."
                         } 
         }
     }
